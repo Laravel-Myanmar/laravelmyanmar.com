@@ -179,12 +179,12 @@ img {
 }
 
 .article-content>p{
-	font-size: 16px;
+	font-size: 14px;
 }
 
 .article-content>ul {
 	list-style: none;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 1.5;
 	padding-bottom: 30px;
 	border-bottom: 1px solid #e3e3e3; 
