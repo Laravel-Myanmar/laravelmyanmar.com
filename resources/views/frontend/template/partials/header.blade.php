@@ -20,8 +20,9 @@
 		    	</li>
 		    	<li><a href="/snippets">Snippets</a></li>
 		    	<li><a href="/packages">Packages</a></li>
+		    	<li><a href="https://www.myanmardevjobs.com?partner=laravelmyanmar">Jobs</a></li>
 		    </ul>
-		    {{-- <div class="uk-navbar-flip uk-hidden-small">
+		    <div class="uk-navbar-flip uk-hidden-small">
 		    	<div class="nav-switcher">
 			    	<form class="uk-form uk-margin-remove uk-display-inline-block">
 			    		<label for="language-switch">Choose Language</label>
@@ -32,6 +33,5 @@
 			    	</form>
 		    	</div>
 		    </div>
-		    <a href="" class="site-nav-toggle uk-float-right uk-navbar-toggle uk-visible-small"></a> --}}
 	    </div>
 	</nav>
