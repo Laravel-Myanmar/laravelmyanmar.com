@@ -35,4 +35,7 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    'laravel_myanmar' => [
+        'default_docs_version' => env('DEFAULT_DOC_VERSION'),
+    ],
 ];
