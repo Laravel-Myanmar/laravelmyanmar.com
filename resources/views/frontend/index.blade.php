@@ -93,7 +93,7 @@
 		<div class="home-col-3 uk-width-medium-1-4">
 			<div class="site-block">
 				<h2 class="block-title">Likes Us</h2>
-				<div class="fb-page" data-href="https://www.facebook.com/myanmardevjobs" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/myanmardevjobs" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/myanmardevjobs">Myanmar Dev Jobs</a></blockquote></div>
+				<div class="fb-page" data-href="https://www.facebook.com/laravelmyanmar" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/laravelmyanmar" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/laravelmyanmar">LaravelMyanmar</a></blockquote></div>
 				<div id="fb-root"></div>
 				<script>(function(d, s, id) {
 				  var js, fjs = d.getElementsByTagName(s)[0];
