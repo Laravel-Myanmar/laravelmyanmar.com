@@ -46,7 +46,7 @@
 			<div class="uk-container uk-container-center">
 				<div class="uk-grid">
 					<div class="uk-width-medium-1-2" style="color: white">
-						Laravel Myanmar &copy; 2014 . All Rights Reserved .
+						Laravel Myanmar &copy; 2014 to {{ date('Y') }}. All Rights Reserved .
 						<br>
 						Laravel is a trademark of <a href="https://twitter.com/taylorotwell">Taylor Otwell</a>.
 					</div>
