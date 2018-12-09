@@ -24,7 +24,7 @@
 					<div class="uk-width-medium-1-4 uk-margin-bottom">
 						<h4>Help</h4>
 						<ul class="uk-list-space uk-list">
-							<li><a href="#">How to translate <br> Laravel Documentation?</a></li>
+							<li><a href="{{ url('/docs/'. config('services.laravel_myanmar.default_docs_version') .'/contributing') }}">How to translate <br> Laravel Documentation?</a></li>
 							<li><a href="#">How to donate us?</a></li>
 							<li><a href="#">Who's behind the scene?</a></li>
 						</ul>
