@@ -3,6 +3,8 @@ language: php
 before_script:
   - curl -s http://getcomposer.org/installer | php
   - php composer.phar install --dev
+  - cp .env.example .env
+  - php artisan key:generate
 
 script:
   - ./vendor/bin/phpunit
