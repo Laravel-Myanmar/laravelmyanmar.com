@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Documentation;
 use Symfony\Component\DomCrawler\Crawler;
 
-
 class DocsController extends Controller
 {
     /**
