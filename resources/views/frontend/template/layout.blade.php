@@ -15,5 +15,15 @@
 	</div>
 	@include('frontend.template.partials.footer')
 	@include('frontend.template.partials.script')
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130655665-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-130655665-1');
+	</script>
 </body>
 </html>
