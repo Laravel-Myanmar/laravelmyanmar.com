@@ -13,16 +13,16 @@ class PagesController extends Controller
 
     public function snippets()
     {
-    	return view('frontend.pages.snippets');
+        return view('frontend.pages.snippets');
     }
 
     public function packages()
     {
-    	return view('frontend.pages.packages');
+        return view('frontend.pages.packages');
     }
 
     public function tutorials()
     {
-    	return view('frontend.pages.tutorials');
+        return view('frontend.pages.tutorials');
     }
 }
