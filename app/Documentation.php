@@ -1,7 +1,10 @@
 <?php
+
 namespace App;
+
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Contracts\Cache\Repository as Cache;
+
 class Documentation
 {
     /**
@@ -10,12 +13,14 @@ class Documentation
      * @var Filesystem
      */
     protected $files;
+
     /**
      * The cache implementation.
      *
      * @var Cache
      */
     protected $cache;
+
     /**
      * Create a new documentation instance.
      *
@@ -28,6 +33,7 @@ class Documentation
         $this->files = $files;
         $this->cache = $cache;
     }
+
     /**
      * Get the documentation index page.
      *
@@ -44,6 +50,7 @@ class Documentation
             return null;
         });
     }
+
     /**
      * Get the given documentation page.
      *
@@ -61,6 +68,7 @@ class Documentation
             return null;
         });
     }
+    
     /**
      * Replace the version place-holder in links.
      *
@@ -72,6 +80,7 @@ class Documentation
     {
         return str_replace('{{version}}', $version, $content);
     }
+
     /**
      * Check if the given section exists.
      *
@@ -85,6 +94,7 @@ class Documentation
             base_path('resources/docs/'.$version.'/'.$page.'.md')
         );
     }
+
     /**
      * Get the publicly available versions of the documentation
      *
@@ -93,7 +103,7 @@ class Documentation
     public static function getDocVersions()
     {
         return [
-            '5.3' => '5.3',
+            '5.7' => '5.7',
         ];
     }
 }

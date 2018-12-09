@@ -3,7 +3,7 @@
 /**
  * Set the default documentation version...
  */
-define('DEFAULT_VERSION', '5.3');
+define('DEFAULT_VERSION', '5.7');
 
 /**
  * Convert some text to Markdown...
@@ -19,3 +19,19 @@ Route::get('/', function () {
 
 Route::get('docs', 'DocsController@showRootPage');
 Route::get('docs/{version}/{page?}', 'DocsController@show');
+
+Route::get('tutorials', function() {
+	echo "Coming soon";
+});
+
+Route::get('tutorials', function() {
+	echo "Coming soon";
+});
+
+Route::get('snippets', function() {
+	echo "Coming soon";
+});
+
+Route::get('packages', function() {
+	echo "Coming soon";
+});

@@ -1,12 +1,12 @@
 <nav class="site-header uk-navbar">
 		<div class="uk-container uk-container-center">
-		    <a href="#" class="site-logo uk-navbar-brand"><img src="{{ asset('img/lm-logo.png') }}" alt="Laravel Myanmar" title="Laravel Myanmar">
+		    <a href="/" class="site-logo uk-navbar-brand"><img src="{{ asset('img/lm-logo.png') }}" alt="Laravel Myanmar" title="Laravel Myanmar">
 		    </a>
 		    <ul class="site-top-menu uk-navbar-nav uk-hidden-small">
-		    	<li><a href="/">Doc (5.3)</a></li>
+		    	<li><a href="/docs">Documencation</a></li>
 		    	<li class="uk-parent" data-uk-dropdown>
 		    		<a href="/tutorials">Tutorials</a>
-		    		<div class="uk-dropdown uk-dropdown-navbar">
+		    		<!-- <div class="uk-dropdown uk-dropdown-navbar">
 	                    <ul class="uk-nav uk-nav-navbar">
 	                        <li><a href="#">Item</a></li>
 	                        <li><a href="#">Another item</a></li>
@@ -16,10 +16,10 @@
 	                        <li class="uk-nav-divider"></li>
 	                        <li><a href="#">Separated item</a></li>
 	                    </ul>
-	                </div>
+	                </div> -->
 		    	</li>
 		    	<li><a href="/snippets">Snippets</a></li>
-		    	<li><a href="/package">Packages</a></li>
+		    	<li><a href="/packages">Packages</a></li>
 		    </ul>
 		    {{-- <div class="uk-navbar-flip uk-hidden-small">
 		    	<div class="nav-switcher">

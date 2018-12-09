@@ -5,20 +5,20 @@
 					<div class="uk-width-medium-1-4 uk-margin-bottom">
 						<h4>Contents</h4>
 						<ul class="uk-list-space uk-list">
-							<li><a href="#">Tutorials</a></li>
-							<li><a href="#">Documentation</a></li>
-							<li><a href="#">Packages</a></li>
-							<li><a href="#">Snippets</a></li>
-							<li><a href="#">Store</a></li>
+							<li><a href="{{ url('tutorials') }}">Tutorials</a></li>
+							<li><a href="{{ url('docs') }}">Documentation</a></li>
+							<li><a href="{{ url('packages') }}">Packages</a></li>
+							<li><a href="{{ url('snippets') }}">Snippets</a></li>
+							<li><a href="{{ url('store') }}">Store</a></li>
 						</ul>
 					</div>
 					<div class="uk-width-medium-1-4 uk-margin-bottom">
 						<h4>Join Us</h4>
 						<ul class="uk-list-space uk-list">
-							<li><a href="#">Facebook Group</a></li>
-							<li><a href="#">Facebook Page</a></li>
-							<li><a href="#">Twitter</a></li>
-							<li><a href="#">Github</a></li>
+							<li><a href="https://www.facebook.com/groups/laravelmyanmar/">Facebook Group</a></li>
+							<li><a href="https://www.facebook.com/laravelmyanmar">Facebook Page</a></li>
+							<li><a href="https://twitter.com/Laravel_Myanmar">Twitter</a></li>
+							<li><a href="https://github.com/laravel-myanmar">Github</a></li>
 						</ul>
 					</div>
 					<div class="uk-width-medium-1-4 uk-margin-bottom">
@@ -45,13 +45,12 @@
 		<div class="site-footer-bottom">
 			<div class="uk-container uk-container-center">
 				<div class="uk-grid">
-					<div class="uk-width-medium-1-2">
+					<div class="uk-width-medium-1-2" style="color: white">
 						Laravel Myanmar &copy; 2014 . All Rights Reserved .
 						<br>
-						Laravel is a trademark of <a href="#">Taylor Otwell</a>.
+						Laravel is a trademark of <a href="https://twitter.com/taylorotwell">Taylor Otwell</a>.
 					</div>
-					<div class="uk-width-medium-1-2">
-						<!-- <p class="uk-text-right">made in YGN with ♥</p> -->
+					<div class="uk-width-medium-1-2" style="color: white">
 							<img src="{{ asset('img/mim.png') }}" align="left" class="uk-margin-right">
 							<small>ချစ်ခြင်းများစွာဖြင့် <br> မြန်မာနိုင်ငံတွင်ပြုလုပ်သည်</small>
 					</div>
