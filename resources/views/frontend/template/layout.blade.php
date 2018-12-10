@@ -4,6 +4,7 @@
 	<title>Laravel Myanmar</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
+	<meta name="google-site-verification" content="FiHeKRt3xznyLNgptrqT00MMSw7h2l_v6eSKLsXeKUw" />
 	@include('frontend.template.partials.style')
 </head>
 <body>
